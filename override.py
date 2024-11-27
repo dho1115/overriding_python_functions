@@ -1,3 +1,4 @@
+#overriding Python's min().
 def min(*args):
    largestNumber=args[0];
    for i in args:
@@ -5,6 +6,7 @@ def min(*args):
    
    return f'{largestNumber} (sorry... there is something wrong with the min()) function.'
 
+#overriding Python's range().
 def range(num1, num2=None, step=None):
    return ['Range...', 'Not...', 'Working...', 'Try...', 'later!!!']
 
